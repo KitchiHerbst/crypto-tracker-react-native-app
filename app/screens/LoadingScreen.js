@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet, Text } from "react-native";
 
-function WelcomeScreen(props) {
+function LoadingScreen(props) {
   return (
     <View style={styles.container}>
       <View style={styles.logo}>
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     height: 100,
     backgroundColor: "tomato",
     marginBottom: 200,
-    borderRadius: 20,
+    borderRadius: 10,
     // alignContent: 'center'
   },
   name: {
@@ -33,4 +33,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default WelcomeScreen;
+export default LoadingScreen;
